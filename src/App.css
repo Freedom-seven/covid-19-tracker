@@ -2,3 +2,55 @@
   margin: 0;
   padding: 0;
 }
+
+.body {
+  background-color: #f5f6fa;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.app__logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.app__logoImg {
+  width: 50px;
+  height: 50px;
+}
+
+.app__logo {
+  font-size: 1rem;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+  margin-left: 10px;
+  /* text-decoration: none solid rgb(5, 240, 240);
+  background-color: #fff;
+  background-image: rgba(0, 0, 0, 0);
+  background-position: right 4px top 18px;
+  background-repeat: no-repeat;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: rgb(5, 240, 240);
+  box-sizing: border-box; */
+}
+
+.app__countryFlag {
+  width: 25px;
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
